@@ -1,0 +1,128 @@
+
+.newsfeed {
+	display : block;
+	border: 5px outset black;
+	background-color: #666362;    
+	text-align: center;
+	width : 100%;
+}
+
+.newsfeed1 {
+	display : block;
+	border: 5px outset yellow;
+	background-color: white;    
+	width : 100%;
+	height : 100%;
+}
+
+.pcol {
+	color : white;
+}
+
+.etihad_ad_logo {
+	display : block;
+	margin-left : 4px;
+	margin-right : auto;
+	width : 35%;
+	height : 35%;
+}
+
+.ad_topic {
+	color : white;
+}
+
+.ad_description {
+	color : white;
+}
+
+.ad_link {
+	color : white;
+}
+
+.taj_ad_logo {
+	display : block;
+	margin-left : 4px;
+	margin-right : auto;
+	width : 36%;
+	height : 36%;
+}
+
+.yala_ad_logo {
+	display : block;
+	margin-left : 4px;
+	margin-right : auto;
+	width : 27%;
+	height : 27%;
+}
+
+.eiffel_ad_logo {
+	display : block;
+	margin-left : 4px;
+	margin-right : auto;
+	width : 27%;
+	height : 27%;
+}
+
+.emirates_ad_logo {
+	display : block;
+	margin-left : 4px;
+	margin-right : auto;
+	width : 27%;
+	height : 27%;
+}
+
+.booking_ad_logo {
+	display : block;
+	margin-left : 4px;
+	margin-right : auto;
+	width : 26%;
+	height : 26%;
+}
+
+.thailand_ad_logo {
+	display : block;
+	margin-left : 4px;
+	margin-right : auto;
+	width : 32%;
+	height : 32%;
+}
+
+.pop_ad_logo {
+	display : block;
+	margin-left : auto;
+	margin-right : auto;
+	width : 40%;
+	height : 40%;
+}
+
+.form-popup {
+  display: none;
+  position: fixed;
+	bottom: 60px;
+	right: 500px;
+	width : 500px;
+  border: 3px solid #f1f1f1;
+  z-index: 0;
+  padding: 10px;
+    background-color: white;
+}
+
+
+.form-container .btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+
+.form-container .cancel {
+  background-color: red;
+}
+
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
