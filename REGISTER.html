@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+		.s {
+		
+			background-image:url("images/tour.jpg");
+			height : 600px;
+			width : 100%;
+		} 
+			 
+		body {
+			background-image:url("images/.jpg");
+			width : 100%;
+		}
+
+#username{
+width:110px;
+height:40px;
+}		
+#mail{
+width:250px;
+height:30px;
+}			
+		</style>
+		
+		<title> register </title>
+		<link rel = "stylesheet" type = "text/css" href = "styles/styles - new.css">
+		
+	</head>
+	<body>
+		
+	<div class="s"
+		<hr class = "hr_1">
+		<ul class="menu"><b> 
+			<li class="menu"> <a href="HOME.html">Home</a> </li>
+			<li class="menu"> <a href="NEWS.html">Tourism News</a> </li>
+			<li class="menu"> <a href="LOGIN_warning.html">Make Your Trip</a> </li>
+			<li class="menu"> <a href="CONTACT.html">Contact Us</a> </li>
+			<li class="menu"> <a href="LOGIN_warning.html">Profile</a> </li>
+			<li class="menu"> <a href="ABOUTUS.html">About US</a> </li></b>
+		</ul>
+		<br></br>
+	
+	<h1 class = "text">TRAVELOGGED</h1>
+	<img class = "mainlogo1" align = "center" src = "images/mainlogo.png"><br><br><br><br><br><br><br><br><br><br><br><br>
+	</div>
+
+       <h1 style="color:red;" align="center">Register Here</h1>
+	   <center>
+	    <div class="register">
+		  <form onsubmit="return checkPassword()" method = "POST" action = "submitreg.php">
+			<label for="firstname">First Name:</label><br>
+			<input type="text" id="username" name="firstname"><br>
+			<label for="lastname">Last Name:</label><br>
+			<input type="text" id="username" name="lastname"><br>
+			<br>
+			Gender:<br/>
+			<input type="radio" id="male" name="gender" value="M">
+			<label for="male">Male</label>
+			<input type="radio" id="female" name="gender" value="F">
+			<label for="female">Female</label><br><br>
+			
+			Enter a phone number:<br/>
+			<input type="tel" id="phone" name="phone" placeholder="0123456789" pattern="[0-9]{10}" required><br><br>
+			
+			Enter E-mail:<br/>
+			<input type="mail" id="mail" name="email" placeholder="abc@gmail.com" required><br/><br>
+
+			Address:<br/>
+				<textarea cols="30" rows="5" name="data" name="day"  required ></textarea><br></br>
+				
+			Birthday:</br>
+			<input type="date" id="birthday" name="day" required><br/><br/>
+			
+			
+			Password:<br/>
+			<input type="password" id="pwd" name = "password" required><br/><br>
+			Confirm Password:<br/>
+			<input type="password" id="cpwd"><br><br>
+			
+		
+		
+		<input type="submit" id="submitbutton" value="Submit"><br/><br>
+		</center>
+		</form>
+		</div>
+
+	<footer class = "footer3">
+		<div>
+			<img class = "storeimgs" src = "images/stores.png" align = "right" style="position: absolute; right: 30px">
+			<img class = "contactimgs" src = "images/o.png" align = "left">
+			<p class = "footertext2">164,De Mel Mawatha,Colombo 7,Sri Lanka</p>
+			<img class = "contactimgs" src = "images/ooo.png" align = "left">
+			<p class = "footertext2">+94 77 452 234 5</p>
+			<br>
+			<hr class = "hr_1">
+		
+			<img class = "paycards" src = "images/visa.png" align = "left">
+			<img class = "paycards" src = "images/mastercard.png" align = "left">
+			<img class = "paycards" src = "images/americanex.png" align = "left">
+			<img class = "mainlogo2" src = "images/mainlogo.png" align = "right" style="position: absolute; right: 30px">
+		</div>
+		<p class = "footertext4">©2020 All Rights Reserved by Sri Lankan Tourism Bureau</p>
+	</footer>
+
+	<div class="footer4">
+	<center>
+		<p class = "footertext1">Follow us on : </p>
+		<a href = "https://www.facebook.com"><img class = "socialmedia" src = "images/fb1.png"></a>
+		<a href = "https://www.instagram.com"><img class = "socialmedia" src = "images/insta.png"></a>
+		<a href = "https://www.twitter.com"><img class = "socialmedia" src = "images/tw1.png"></a>
+		<a href = "https://www.linkedin.com"><img class = "socialmedia" src = "images/in.png"></a>
+	</center>
+	</div>
+
+	</body>
+</html>
