@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+		.s {
+		
+			background-image:url("images/m.jpg");
+			height : 900px;
+			width : 100%;
+		} 
+		</style>
+		
+		<title> Travelogged - Trip Settings </title>
+		<link rel = "stylesheet" type = "text/css" href = "styles/styles.css">
+		<link rel = "stylesheet" type = "text/css" href = "styles/login_styles.css">
+
+	</head>
+	<body>
+		
+	<div class = "s" >
+		<hr class = "hr_1">
+		
+		<h1 style="color: yellow; position: absolute; top: -25px; font-size: 70px">Make Your Trip</h1>
+	
+		<h1 class = "text">TRAVELOGGED</h1>
+		<img class = "mainlogo2" align = "center" src = "images/mainlogo.png">
+		<hr class = "hr_2">
+
+		<div class = "form1">
+			
+			<form  class = "form_inside" name = "myform" method="POST" action="submitsettings.php">
+				<h2 align="center" style="color: yellow">Calculate your Total Travel Cost</h2><br>
+				<p style="color: white">Your email :
+				<input type="text" name="email" style="width: 200px; height: 1px" placeholder="abc@XXX.XXX"><br></p>
+				<p style="color: white">Number of people attend :
+				<input type="phone" name="nop" style="width: 30px"><br></p>
+				<p style="color: white">Package Price : $
+				<input type="phone" name="prc" style="width: 30px"><br></p>
+				<center><input type="button" name="calc" value="Calculate" onclick="multiply()"> = $
+				<input type="text" name="result" style="width: 40px; height: 1px"></center>
+
+				<button type = "submit" class = "btn">Proceed</button>
+			</form>
+
+			<script>
+				function multiply() {
+					nop = parseInt(myform.nop.value);
+					prc = parseInt(myform.prc.value);
+					result = nop * prc;
+					myform.result.value = result;
+				}
+			</script>
+		
+		</div>
+	
+	</div>
+		
+	<footer class = "footer3">
+		<div>
+			<img class = "storeimgs" src = "images/stores.png" align = "right" style="position: absolute; right: 30px">
+			<img class = "contactimgs" src = "images/o.png" align = "left">
+			<p class = "footertext2">164,De Mel Mawatha,Colombo 7,Sri Lanka</p>
+			<img class = "contactimgs" src = "images/ooo.png" align = "left">
+			<p class = "footertext2">+94 77 452 234 5</p>
+			<br>
+			<hr class = "hr_1">
+		
+			<img class = "paycards" src = "images/visa.png" align = "left">
+			<img class = "paycards" src = "images/mastercard.png" align = "left">
+			<img class = "paycards" src = "images/americanex.png" align = "left">
+			<img class = "mainlogo2" src = "images/mainlogo.png" align = "right">
+		</div>
+		<p class = "footertext4">©2020 All Rights Reserved by Sri Lankan Tourism Bureau</p>
+ 
+	</footer>
+
+	<div class="footer4">
+		<center>
+		<p class = "footertext1">Follow us on : </p>
+		<a href = "https://www.facebook.com"><img class = "socialmedia" src = "images/fb1.png"></a>
+		<a href = "https://www.instagram.com"><img class = "socialmedia" src = "images/insta.png"></a>
+		<a href = "https://www.twitter.com"><img class = "socialmedia" src = "images/tw1.png"></a>
+		<a href = "https://www.linkedin.com"><img class = "socialmedia" src = "images/in.png"></a></center>
+	</div>
+
+	</body>
+</html>
