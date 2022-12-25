@@ -16,6 +16,7 @@ Our website is about Tourism and Travel Management. Through this website, user c
 # Instructions
 
 Use files in the cities and main folders, outside the directories. Start with HOME.html file.
+
 Didn't attached the images file here. Use it here using https://drive.google.com/drive/folders/1nd7E_RiDkMbTYqPaMP-WSkjOvzgFj-07?usp=sharing link.
 
 # User Interfaces
