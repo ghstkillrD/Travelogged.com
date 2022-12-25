@@ -15,4 +15,15 @@ Our website is about Tourism and Travel Management. Through this website, user c
 
 # Instructions
 
-Use files in the cities and main folders, outside the directories. Start with LOGIN.html file.
+Use files in the cities and main folders, outside the directories. Start with HOME.html file.
+
+# User Interfaces
+
+Home Interface
+![Screenshot_home](https://user-images.githubusercontent.com/67953132/209459080-5da85e18-c831-4b30-ac39-de6e032ebeb7.png)
+
+Login Interface
+![Screenshot_login](https://user-images.githubusercontent.com/67953132/209459072-2d2196b2-41cc-4ba8-a67e-b9262069499a.png)
+
+Footer Interface
+![Screenshot_footer](https://user-images.githubusercontent.com/67953132/209459090-ab32abb7-24e5-4930-b715-a84c5d2b8d8a.png)
